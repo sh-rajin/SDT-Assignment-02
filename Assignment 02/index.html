@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 02</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar bg-success-subtle">
+        <div class="container">
+          <a class="navbar-brand">
+            <img src="./images/logo.png" alt="Logo" width="40" height="35">
+          </a>
+          <div class="search-container d-flex me-3">
+            <input class="form-control me-2" type="text" id="search-input" placeholder="Search..." aria-label="Search">
+            <button class="btn btn-outline-success fw-bold" onclick="handleSearch()">Search</button>
+          </div>
+            
+        
+    </div>
+        </div>
+      </nav>
+
+      <div class="container d-flex mt-5">
+        <div id="meal-container" class="meal-container col-lg-10 col-sm-6">
+        
+
+        </div>
+        <div id="cart" class="cart col-lg-2 col-sm-6 bg-info bg-gradient text-white">
+          <div class="d-flex">
+            <i class="fa-solid fa-cart-shopping fs-4 pt-2 me-1"></i>
+          <h3>Cart</h3>
+          <span id="count" class="count">0</span>
+          </div>
+        </div>
+      </div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Meal Details</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" id="modal-body">
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Footer-->
+<footer class="bg-dark">
+        <div class="social-media text-center p-3">
+        <a href="https://www.facebook.com/sh.rajin.7" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/sh_rajin/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/shrajin/" target="_blank"><i class="fa-brands fa-linkedin" ></i></a>
+        <a href="https://github.com/sh-rajin" target="_blank"><i class="fa-brands fa-github" ></i></a>
+        </div>
+        <hr class="text-white fs-4">
+        <div class="copyright text-white text-center pb-3">
+          &copy; 2024. All rights reserved. Designed by Shakhawat Hossain
+        </div>
+</footer>
+
+    <script src="app.js"></script>
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+</body>
+</html>

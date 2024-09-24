@@ -1,0 +1,68 @@
+.card{
+    margin: auto;
+    align-items: center;
+    box-shadow: 0 0px 50px gray;
+    margin-bottom: 20px;
+    width: 400px;
+}
+.card-img{
+    width: 100px;
+    height: 200px;
+    object-fit:cover;
+    margin-bottom: 10px;
+}
+.meal-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 50px;
+    align-items: center;
+}
+.no-found
+{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+    font-size: 50px;
+    color: red;
+}
+
+.cart{
+    position: relative;
+    width: 50px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    margin: 50px 0 0 20px;
+    
+}
+.count{
+    font-size: 20px;
+    top: -5px;
+    right: -5px;
+    background: red;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 50%;
+    margin-left: 7px;
+
+}
+
+.cart-img{
+    height: 200px;
+    border-radius: 20px;
+    padding: auto;
+
+}
+.fa-brands{
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin: 0 15px;
+}
